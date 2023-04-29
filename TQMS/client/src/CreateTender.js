@@ -95,7 +95,7 @@ function CreateTender() {
           </div>
           <div>
             <label htmlFor="description">Description</label>
-            <textarea id="description" name="description" value={formData.description} onChange={handleChange} required></textarea>
+            <textarea className='description' id="description" name="description" value={formData.description} onChange={handleChange} required></textarea>
           </div>
           <div>
             <label htmlFor="start_date">Start Date</label>
@@ -109,8 +109,8 @@ function CreateTender() {
             <label htmlFor="location">Location</label>
             <input type="text" id="location" name="location" value={formData.location} onChange={handleChange} required />
           </div>
-          <button type="submit">{isUpdating ? 'Update' : 'Create'}</button>
-          <button onClick={handlePopupClose}>Close</button>
+          <button className='button-popup' type="submit">{isUpdating ? 'Update' : 'Create'}</button>
+          <button className='button-popup' onClick={handlePopupClose}>Close</button>
         </form>
       </div>
     </div>

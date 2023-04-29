@@ -116,7 +116,6 @@ function Tenders() {
   };
 
   const isOneRowSelected = selectedTenders.length === 1; // check if one row is selected
-  const isRowSelected = selectedTenders.length >= 1;
 
   return (
     <div className='container'>

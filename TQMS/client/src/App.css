@@ -237,6 +237,27 @@
   color: #000000;
 }
 
+.description {
+  height: 45%;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #00337C;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.pdf {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
 
 @media screen and (min-width: 768px) {
 .form {
